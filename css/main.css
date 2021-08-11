@@ -334,8 +334,10 @@ body {
   padding: 16px 32px;
 }
 
-.client-nav li a:hover {
+.client-nav li a:hover,
+.client-nav li a:focus {
   border-color: var(--accent-color);
+  color: var(--main-background-color);
 }
 
 .client-nav li a:hover svg,
