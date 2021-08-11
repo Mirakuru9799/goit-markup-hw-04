@@ -419,7 +419,7 @@ body {
 .social-nav li a:hover,
 .social-nav li a:focus {
   background-color: var(--accent-color);
-  color: var(--main-background-color);
+  fill: var(--main-background-color);
 }
 
 .social-nav li a svg {
