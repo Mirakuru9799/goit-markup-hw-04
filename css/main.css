@@ -552,7 +552,6 @@ body {
 .project-nav {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 .project-element {
