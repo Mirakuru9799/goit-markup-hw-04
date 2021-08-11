@@ -334,11 +334,13 @@ body {
   padding: 16px 32px;
 }
 
-.client-nav li a:hover {
+.client-nav li a:hover,
+.client-nav li a:focus {
   border-color: var(--accent-color);
 }
 
-.client-nav li a:hover svg {
+.client-nav li a:hover svg,
+.client-nav li a:focus svg {
   fill: var(--accent-color);
 }
 /* Our Team*/
