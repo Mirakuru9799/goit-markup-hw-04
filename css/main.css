@@ -416,8 +416,10 @@ body {
   border-radius: 50%;
 }
 
-.social-nav li a:hover {
+.social-nav li a:hover,
+.social-nav li a:focus {
   background-color: var(--accent-color);
+  color: var(--main-background-color);
 }
 
 .social-nav li a svg {
@@ -538,7 +540,6 @@ body {
 
 .footer .icon-social:hover, .icon-social:focus {
   background-color: var(--accent-color);
-  color: var(--main-background-color);
 }
 /* Стили для portfolio.html*/
 
